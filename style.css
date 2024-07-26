@@ -236,8 +236,192 @@ margin-left: -25px;
    margin-left: -30px;
  }
 }
-
-
+@media only screen and (max-width:425px){
+  .header .menu{ 
+    display: none;
+    }         
+      .row .profilemain{
+      background: #000000;
+      z-index: 1;
+      width:100%;
+      position: relative;
+      bottom: 100px;
+      left: 50px;
+            }
+            .profilemain .profile{
+              width:300px;
+              height: 480px;
+             position: relative;
+             left:10px;
+            bottom: 200px;
+            } 
+            .row .main{
+              position: relative;
+              bottom: 250px;
+              right:50px;
+              height: 200px;
+            } 
+            .main .demo{
+              font-size: 45px;
+              position: relative;
+              left: 50px;
+              top: 100px;
+            }  
+            .main .ani{
+              width:300px;
+          position: relative;
+          left: 50px;
+            }  
+            .main .ani h1{
+              font-size: 23px;
+            }
+            .main .btn{
+              position: relative;
+              bottom: 50px;
+            }
+            .demo1 h2{
+              position: relative;    
+              right: 230px;
+            z-index:1;
+            font-size: 20px;
+            width: 200px;
+            }
+            .demo1 .para{
+              font-size: 13px;
+              position: relative;
+             right: 100px;
+            }
+            .container .box1{
+              margin-left: 100px;
+              margin-top: 25px;
+            }
+            .container .box2{
+              margin-left: 100px;
+              margin-top: -30px;
+            }
+            .demo2 h3{
+              position: relative;    
+              right: 200px;
+            z-index:1;
+            font-size: 20px;
+            width: 200px;
+            }
+            .container1 .box{
+              position: relative;
+              left: 85px;
+            }
+            .demo3 h2{
+              position: relative;    
+              right: 180px;
+            z-index:1;
+            font-size: 20px;
+            width: 200px;
+            }
+            .demo3 .menu1{
+            width: 100%;
+             position: relative;
+             right: 50px;
+            }
+            .demo3 .menu1 button{
+              height: 45px;
+              width: 70px;           
+              font-size: 15px;
+              margin-left: 10px;
+            }
+            .fil .mywork{
+              margin-top: 5px;
+            }
+            .mywork .card{
+              margin-left: 40px;
+            }
+            .demo4 h2{
+              position: relative;    
+            right: 230px;
+            z-index:1;
+            font-size: 20px;
+            width: 200px;
+            }
+            .main2 .cnct{
+              margin-left:350px;
+              margin-top: -55px;
+            }
+            .main2 .con{
+              margin-left:100px;
+             margin-top: -58px;
+            }
+            .main2 .abcde{
+              height: 50px;
+              width: 50px;
+            }
+            .main2 .conc .abcde{
+             position: relative;
+             right: 20px;
+             bottom: 5px;
+            }
+            .main2 .con .abcde{
+             position: relative;
+             right: 60px;
+            }
+            .main2 .cnct .abcde{
+             position: relative;
+             right: 110px;
+            }
+            .main2 .conc .para1{
+            margin-left: 55px;
+            font-size: 10px;
+            }
+            .main2 .con .para1{
+             margin-left: 13px;
+             font-size: 10px;
+            }
+            .main2 .cnct .para1{
+             margin-left: -40px;
+             font-size: 10px;
+            }
+            .main2 .icon4{
+             position: relative;
+             right: 10px;
+             bottom: 10px;
+            }
+            .main2 .para1{
+             position: relative;
+             top: 15px;
+             right: 18px;
+             font-size: 13px;
+            }
+            .main3 .inp{
+              position:relative;
+              right: 45px;
+            }
+            .main3 .inp1{
+              position:relative;
+              right: 45px;
+            
+            }
+            .main3 .inp2{
+              position:relative;
+              left: 130px;
+              width: 180px;
+              bottom: 130px;
+            }
+            .main3 .inp3{
+              position:relative;
+              left: 130px;
+              bottom: 130px;
+              width: 180px;
+            }
+            .main3 .inp4{
+              position:relative;
+              bottom: 100px;
+              right: 40px;
+              width: 380px;
+            }
+            .row .sub{
+              position: relative;
+              bottom: 100px;
+              right: 20px;
+            }
+}
 @media only screen and (max-width:375px){
   .header .menu{ 
     display: none;
@@ -782,7 +966,7 @@ width:100%;
 }
 
 .sub:hover{
-  background: linear-gradient(120deg,rgb(111, 73, 131),rgb(156, 88, 196), rgb(71, 31, 74), rgb(99, 74, 151) );
+  background-color: #44233c;
 }
 .abcde{
   height: 70px;
@@ -841,18 +1025,6 @@ width:100%;
   height:50px;
   margin-top: 50px;
   margin-left: -10px;
-}
-.para1{
-  color:white;
-  margin-left: 80px;
-  margin-top: -50px;
-  font-size: 15px;
-}
-.con{
-  margin-left:-40px
-}
-.cnct{
-  margin-left: 15px;
 }
 /*Contact End*/
 
@@ -986,9 +1158,6 @@ width:100%;
   padding:3px;
   border-radius:8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); 
-}
-.demo4{
-  padding-top: 100px;
 }
 .work {
   position: absolute;
@@ -1203,4 +1372,8 @@ width:100%;
 .menu button.active1 {
   background-color:#a86f9a;
   color: #000000;
+}
+
+.content-section {
+  padding-top: 60px; 
 }
