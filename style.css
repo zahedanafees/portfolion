@@ -68,15 +68,19 @@
   }
   .container .box1{
    height: 350px;
-   width: 250px;
+   width: 380px;
    margin-left: -170px;
   }
+ .container .box1 .cert{
+  position: relative;
+  right: 10px;
+ }
   .container .box2 h3{
    margin-left: -25px;
    font-size: 20px;
   }
   .container .box1 h3{
-   margin-left: -45px;
+   margin-left: -10px;
    font-size: 20px;
   }
 
@@ -235,6 +239,7 @@ margin-left: -25px;
  .main3 .sub{
    margin-left: -30px;
  }
+
 }
 @media only screen and (max-width:425px){
   .header .menu{ 
@@ -292,7 +297,7 @@ margin-left: -25px;
              right: 100px;
             }
             .container .box1{
-              margin-left: 100px;
+              margin-left: 50px;
               margin-top: 25px;
             }
             .container .box2{
@@ -485,7 +490,7 @@ margin-left: -25px;
    margin-top: 80px;
    }
    .container .box1{
-       margin-left: 150px;
+       margin-left: 80px;
       margin-top: 40px;
       }
       .demo2 h3{
@@ -786,7 +791,7 @@ width:100%;
           margin-top: 20px; 
       }
       .box1 {
-          width: 350px;
+          width: 400px;
           height: 410px;
           border: 0px solid #666666;
           border-radius: 20px;
@@ -801,7 +806,7 @@ width:100%;
           background: linear-gradient(50deg,rgb(171, 153, 171),rgb(249, 130, 217),rgb(209, 189, 2512), white ); 
               background-clip: text;
               color: transparent;
-              padding-left: 100px;
+              padding-left: 130px;
               margin-top: 10px;
       
       }
